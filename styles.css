@@ -1,1 +1,32 @@
-/*  your css code here. If applicable */
+body {
+      margin: 0;
+      background: white;
+    }
+
+    .star {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      width: 0;
+      height: 0;
+		margin-left:10px;
+    }
+
+    .triangle-up,
+    .triangle-down {
+      position: absolute;
+      left: -30px;
+      width: 0;
+      height: 0;
+      border-left: 30px solid transparent;
+      border-right: 30px solid transparent;
+    }
+
+    .triangle-up {
+      border-bottom: 52px solid yellow;
+    }
+
+    .triangle-down {
+      top: 16px;
+      border-top: 52px solid yellow;
+    }
